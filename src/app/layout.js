@@ -3,6 +3,7 @@
 import './globals.css';
 import Header from '@/components/layouts/Header';
 import Footer from '@/components/layouts/Footer';
+import Container from '@/components/layouts/Container';
 import localFont from 'next/font/local';
 
 const pretendard = localFont({
@@ -41,12 +42,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${pretendard.variable} antialiased`}> 
+      <body className={`${pretendard.variable} antialiased`} > 
         <div className="flex min-h-screen flex-col">
           {/* Header 영역 */}
           <Header />
           {/* Main 영역 */}
-          <main className="flex-1">{children}</main>
+          <main className="flex-1"><Container>{children}</Container></main>
           {/* Footer 영역 */}
           <Footer />
         </div>
