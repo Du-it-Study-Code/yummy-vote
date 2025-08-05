@@ -1,6 +1,5 @@
 import '../globals.css';
 import Header from '@/views/components/layouts/Header';
-import Footer from '@/views/components/layouts/Footer';
 import localFont from 'next/font/local';
 
 const pretendard = localFont({
@@ -25,8 +24,7 @@ export default function ManagerLayout({ children }) {
       className={`${pretendard.variable} antialiased bg-gray-200 min-h-screen flex flex-col`}
     >
       <Header />
-      <main className="">{children}</main>
-      <Footer />
+      <main className="flex-1">{children}</main>
     </div>
   );
 }

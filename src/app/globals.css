@@ -8,6 +8,9 @@
 html, body {
   height: 100%;
 }
+button {
+  cursor: pointer;
+}
 
 /*
   The default border color has changed to `currentcolor` in Tailwind CSS v4,
