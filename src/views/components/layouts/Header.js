@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react"; // 아이콘에 힘을 덜 쓰기 위한 라이브러리, lucide-react 설치 필요
-import Container from '@/components/layouts/Container';
-import Logo from '@/components/layouts/Logo';
+import Container from '@/views/components/layouts/Container';
+import Logo from '@/views/components/layouts/Logo';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

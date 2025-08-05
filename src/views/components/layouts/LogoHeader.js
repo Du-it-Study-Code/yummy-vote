@@ -1,7 +1,7 @@
 // 요약: 햄버거 버튼 없이 로고만 가운데 배치된 헤더, 메인 페이지 전용
 
-import Logo from '@/components/layouts/Logo';
-import Container from '@/components/layouts/Container';
+import Logo from '@/views/components/layouts/Logo';
+import Container from '@/views/components/layouts/Container';
 
 export default function LogoHeader() {
   return (

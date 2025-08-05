@@ -1,9 +1,9 @@
 // 요약: 전체 레이아웃 (헤더, 폰트, Tailwind globals)
 
 import './globals.css';
-import Header from '@/components/layouts/Header';
-import Footer from '@/components/layouts/Footer';
-import Container from '@/components/layouts/Container';
+import Header from '@/views/components/layouts/Header';
+import Footer from '@/views/components/layouts/Footer';
+import Container from '@/views/components/layouts/Container';
 import localFont from 'next/font/local';
 
 const pretendard = localFont({
