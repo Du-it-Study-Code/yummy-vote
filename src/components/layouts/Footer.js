@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t">
       <Container className="flex h-14 items-center justify-center">
         <p className="text-muted-foreground text-sm">
-          푸터엔 어떤 내용이 필요할까요?
+          당신의 메뉴에게 투표하세요!
         </p>
       </Container>
     </footer>
