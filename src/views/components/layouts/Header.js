@@ -18,7 +18,7 @@ export default function Header() {
           </a>
 
           {/* 햄버거 버튼 */}
-          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
+          <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </Container>
