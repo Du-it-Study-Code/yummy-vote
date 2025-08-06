@@ -13,7 +13,7 @@ const menuMap = {
     { label: "멤버 관리", href: "/manager/members" },
   ],
   "/order": [
-    { label: "오늘의 식당", href: "/order/today" },
+    { label: "오늘의 식당", href: "/order/" },
     { label: "오늘의 멤버", href: "/order/members" },
   ],
 };

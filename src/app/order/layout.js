@@ -26,7 +26,7 @@ export const metadata = {
 export default function OrderLayout({ children }) {
   return (
     <div
-      className={`${pretendard.variable} antialiased bg-gray-200 min-h-screen flex flex-col`}
+      className={`${pretendard.variable} antialiased bg-gray-100 min-h-screen flex flex-col`}
     >
       <Header />
       <main className="flex-1">{children}</main>
