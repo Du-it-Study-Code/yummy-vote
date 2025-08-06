@@ -14,11 +14,9 @@ export default function OrderMembersPage() {
 
   return (
     <div className="flex flex-col items-center px-4 py-8 min-h-screen bg-gray-100">
-      <div className="w-full max-w-[540px] bg-white rounded-xl shadow-md p-6">
+      <div className="w-full max-w-[728px] bg-white rounded-xl shadow-md p-6">
         {/* 타이틀 */}
-        <h2 className="text-lg font-semibold text-gray-800 mb-4 relative">
-          오늘의 식탁멤버
-          <span className="absolute left-[-4px] bottom-[-4px] w-[120px] h-1 bg-orange-300 rounded-full" />
+        <h2 className="text-lg font-semibold text-gray-800 mb-4 relative"><span className='relative'>오늘의 식탁 멤버<span className="absolute left-[0px] bottom-[-8px] w-full h-1 bg-orange-300 rounded-full" /></span>
         </h2>
 
         {/* 테이블 헤더 */}

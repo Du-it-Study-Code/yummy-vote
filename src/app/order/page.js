@@ -23,9 +23,11 @@ export default function OrderPage() {
   };
 
   return (
-    <div className="px-4 py-6">
-      <div className='bg-white px-4 py-6'>
-        <h2 className="text-gray-600 font-bold mb-4 text-sm">아맛나 빨리빨리감</h2>
+    <div className="px-4 py-8">
+      <div className='bg-white px-4 py-6 max-w-[728px] w-full mx-auto rounded-xl'>
+        <h2 className="text-lg font-semibold text-gray-800 mb-4 relative"><span className='relative'>아맛나 빨리빨리감<span className="absolute left-[0px] bottom-[-8px] w-full h-1 bg-orange-300 rounded-full" /></span>
+          
+        </h2>
 
         <div className="grid grid-cols-2 gap-x-4 gap-y-6">
           {menuList.map((menu) => (
