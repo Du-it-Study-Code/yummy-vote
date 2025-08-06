@@ -38,7 +38,7 @@ export default function ManagerHome() {
             onClick={() => router.push('/manager/menu')}
             className="py-3 bg-orange-400 text-white rounded-md hover:bg-blue-500 transition"
           >
-            식당 / 메뉴 등록
+            식당 / 메뉴 관리 
           </button>
           <button
             onClick={() => router.push('/manager/members')}
